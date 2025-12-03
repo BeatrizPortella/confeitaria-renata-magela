@@ -581,7 +581,7 @@ textarea::placeholder {
 }
 
 .logo-img {
-    height: clamp(50px, 10vw, 150px);
+    height: clamp(35px, 8vw, 150px);
     width: auto;
     display: block;
 }
