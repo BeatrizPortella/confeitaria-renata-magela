@@ -503,6 +503,43 @@ textarea::placeholder {
         padding: 12px 10px;
         font-size: 0.9rem;
     }
+
+    .step-indicator {
+        gap: 10px;
+        overflow-x: auto;
+        padding-bottom: 10px;
+        justify-content: flex-start;
+    }
+
+    .step-dot {
+        flex-shrink: 0;
+        width: 35px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+
+    .size-table,
+    .size-table tbody,
+    .size-table tr,
+    .size-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .size-table tr {
+        margin-bottom: 15px;
+    }
+
+    .size-table td {
+        text-align: center;
+        border-radius: 15px !important;
+    }
+
+    .size-table span {
+        float: none !important;
+        display: block;
+        margin-top: 5px;
+    }
 }
 
 /* --- Home Page Redesign --- */
