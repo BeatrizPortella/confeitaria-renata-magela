@@ -540,6 +540,30 @@ textarea::placeholder {
         display: block;
         margin-top: 5px;
     }
+
+    /* Refined Mobile Optimizations */
+    .options-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .wizard-container {
+        padding: 15px;
+        margin: 10px 10px 120px 10px;
+        /* Increased bottom margin */
+    }
+
+    .banner-header {
+        padding: 15px;
+    }
+
+    .banner-number {
+        font-size: 2rem;
+    }
+
+    .banner-text h2 {
+        font-size: 1.2rem;
+    }
 }
 
 /* --- Home Page Redesign --- */
