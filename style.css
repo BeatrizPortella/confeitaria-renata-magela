@@ -578,6 +578,12 @@ textarea::placeholder {
 /* Navigation */
 .main-header {
     padding: clamp(10px, 2vw, 30px) 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background: transparent;
 }
 
 .logo-img {
@@ -788,12 +794,8 @@ textarea::placeholder {
         flex-direction: column;
         text-align: center;
         padding-bottom: 50px;
-    }
-
-    .hero-container {
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 50px;
+        padding-top: 120px;
+        /* Push content down below logo */
     }
 
     .hero-buttons {
