@@ -565,6 +565,10 @@ textarea::placeholder {
     .banner-text h2 {
         font-size: 1.2rem;
     }
+
+    .logo-img {
+        height: 100px;
+    }
 }
 
 /* --- Home Page Redesign --- */
